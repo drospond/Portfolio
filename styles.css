@@ -1,0 +1,108 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/light-texture-background-of-spots-halftone-picture-id963927280?k=6&m=963927280&s=170667a&w=0&h=QacyHjiUjuYhN0Z35RxHdRv5tNAo73fMeGKVabmx3Vo=");
+  }
+
+a{
+    color: gray;
+}
+img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: rgb(46, 155, 122);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
+
+#cat{
+    width: 300px;
+    height: 200px;
+}
+
+.white-bg{
+    background-color: white;
+}
+
+.teal-bg{
+    background-color: rgb(46, 155, 122);
+}
+
+.padding-to-zero{
+    padding: 0px;
+}
+
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.nav{margin-top: 6px;}
+
+.portfolio-img{
+    width: 329px;
+    padding-right: 0px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 329px;
+    background-color: rgb(46, 155, 122);
+    color: white;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .btn {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:  rgb(46, 155, 122);
+    border-color: rgb(46, 155, 122);
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(46, 155, 122, 0.63);
+    border-color: rgba(46, 155, 122, 0.63);
+}
+
+.border-bottom {
+    border-bottom: 2px solid #dee2e6!important;
+}
+  
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(92, 92, 92);
+    color: lightgray;
+    font-size: 12px;
+    border-top:  5px solid rgba(46, 155, 122, 0.63);
+}
+
+@media screen and (max-width: 767px) {
+    #cat{
+      width: 100%;
+      height: 300px;
+      float: none;
+      margin-left: .7rem;
+    }
+  }
