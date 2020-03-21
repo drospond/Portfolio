@@ -72,7 +72,7 @@ a:hover {
 
 .text-overlay {
     position: absolute;
-    top: 83%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -82,6 +82,21 @@ a:hover {
     font-size: 24px;
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+
+  .repo-link1{
+    vertical-align: middle; 
+    text-align: center;
+  }
+  .repo-link2{
+    vertical-align: middle; 
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .repo-link3{
+    vertical-align: middle; 
+    text-align: center;
+    margin-top: 1rem;
   }
 
   .btn {
